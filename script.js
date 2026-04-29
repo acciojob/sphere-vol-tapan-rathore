@@ -7,7 +7,7 @@ function volume_sphere(e) {
 	let volume = (4/3) * Math.PI * Math.pow(r,3); 
 	// console.log(r, volume)
 	
-	document.getElementById("volume").value = volume.toFixed(2)
+	document.getElementById("volume").value = volume
   
 } 
 
